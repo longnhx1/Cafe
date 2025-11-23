@@ -76,5 +76,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cafe.BUS\Cafe.BUS.csproj">
+      <Project>{9968fb61-b3f4-4ee7-81ba-36a659fd387a}</Project>
+      <Name>Cafe.BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cafe.DAO\Cafe.DAO.csproj">
+      <Project>{5f79b0e6-a36f-43dc-adf3-7c808c46d834}</Project>
+      <Name>Cafe.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cafe.DTO\Cafe.DTO.csproj">
+      <Project>{a44d0cc0-0afb-40f1-8e79-8c4cd84ddcf5}</Project>
+      <Name>Cafe.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
