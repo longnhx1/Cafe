@@ -16,5 +16,6 @@ namespace Cafe.GUI
         {
             InitializeComponent();
         }
+
     }
 }
